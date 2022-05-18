@@ -40,7 +40,7 @@ export default function Products() {
   };
   const addToCart = (obje) => {
     if (cart.includes(obje)) {
-      console.log("Duplicated");
+      alert("Already in Cart");
     } else {
       setCart([...cart, obje]);
       console.log(obje);
