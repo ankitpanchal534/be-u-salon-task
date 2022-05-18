@@ -52,7 +52,7 @@ export default function Products() {
         {Products.map((item, i) => (
           <div key={i} className="Products-child">
             <li>Product Name: {item.name}</li>
-            <li> Price:{item.price * item.quantity}</li>
+            <li> Price:{item.price}</li>
             <li>
               Quantity:<button onClick={(index) => addQ(i)}>+</button>{" "}
               {item.quantity} <button onClick={(index) => lessQ(i)}>-</button>{" "}
