@@ -1,0 +1,65 @@
+.Products {
+  width: 100%;
+  color: white;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.Products-child {
+  background-color: blueviolet;
+  margin: 10px;
+  height: 150px;
+  width: 140%;
+  padding: 15px;
+}
+
+li {
+  padding: 5px;
+}
+
+.addbtn {
+  margin-top: 6px;
+  padding: 10px;
+  background-color: green;
+  border: none;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  width: 500px;
+  background-color: lightgray;
+}
+
+.cart-child {
+  background-color: blueviolet;
+  color: white;
+  margin: 10px;
+}
+
+.cart-parent {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.Final-Bill {
+  background-color: lightgray;
+  margin: 10px;
+  padding: 5px;
+  width: 100%;
+}
